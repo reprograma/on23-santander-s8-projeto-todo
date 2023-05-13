@@ -1,0 +1,47 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    background-color: #f8f9fe;
+    min-height: 400px;
+    min-width: 400px;
+    box-shadow: 2px 2px 9px cornflowerblue;
+    padding: 20px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 10px 20px; 
+    border: none; 
+    color: #f8f9fe;
+}
+
+#marcar-todos{
+    background-color: rgba(172, 255, 47, 0.803); 
+}
+
+#limpar{
+    background-color: rgba(255, 33, 33, 0.781);
+}
+
+form button {
+    background-color: #0d69f6;
+    cursor: pointer;
+    color: #f8f9fe;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px; 
+}
+
+.feito{
+    background-color: chartreuse;
+}
