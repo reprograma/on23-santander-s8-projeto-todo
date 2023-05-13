@@ -4,7 +4,7 @@
 
 # Tema da Aula
 
-Turma Online 22 - B3 | Back-end | Semana X | 2023 | Professora X
+Turma Online 23 - Santander | Front-end | Semana 8 | 2023 | Professora Ana Morita
 
 ### Instruções
 Antes de começar, vamos organizar nosso setup.
