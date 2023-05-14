@@ -10,6 +10,9 @@ function cadastrarTarefa(evento) {
 
   let lista = document.querySelector('ul');
   lista.appendChild(itemDaLista);
+
+  // apagar valor do input depois de digitar
+  inputTarefa.value = '';
 }
 
 // evento de submit, acontece quando clicar em um botao tipo submit (no nosso caso só tem um botao então ele é implicitamente do tipo submit) dentro do formulário ou quando der enter dentro de um input
