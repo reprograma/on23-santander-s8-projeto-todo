@@ -12,4 +12,5 @@ function cadastrarTarefa(evento) {
   lista.appendChild(itemDaLista);
 }
 
+// evento de submit, acontece quando clicar em um botao tipo submit (no nosso caso só tem um botao então ele é implicitamente do tipo submit) dentro do formulário ou quando der enter dentro de um input
 formulario.addEventListener('submit', cadastrarTarefa);
