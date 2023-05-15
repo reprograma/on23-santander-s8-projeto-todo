@@ -136,7 +136,7 @@ button {
 
 @media (min-width: 800px) {
   main{
-    width: 60%;
+    width: 45%;
   }
   .box-pomodoro p{
     font-size: 5rem;
