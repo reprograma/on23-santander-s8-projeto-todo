@@ -1,14 +1,23 @@
 let formulario = document.querySelector(" form");
 let inputTarefa = document.querySelector("input");
-let limpar = document.getElementById('#limpar')
+let limpar = document.getElementById('#limpar');
+let btnMarcarTodas = document.getElementById('marcar-todos');
 
-document.getElementById('#marcar-todos').onclick = function() {   // Ainda não acertei - continua 
-    let checkBoxes = document.querySelectorAll('ul')
-    for (let checkBox of checkBoxes){
-        checkBox.checkend = true
+
+
+//FUNÇÃO MARCAR TODAS
+btnMarcarTodas.addEventListener('click', marcarTodas);
+function marcarTodas(evento) {
+
+    evento.preventDefault()
+
+    let marcarTodosOsItens = document.querySelectorAll('li')
+    console.log(marcarTodosOsItens)
+    for (const marcacao of marcarTodosOsItens) {
+         marcacao.classList.add('feito')
+
     }
 }
-
 
 //FUNÇÃO PARA MARCAR TAREFAS
 function marcarTarefaComoFeita(evento) {
@@ -24,6 +33,7 @@ function cadastrarTarefa(evento) {
     let itemDaLista = document.createElement('li');
     itemDaLista.innerHTML = valorInput;
     itemDaLista.addEventListener('click', marcarTarefaComoFeita);
+
 
     let lista = document.querySelector('ul');
     lista.appendChild(itemDaLista)
