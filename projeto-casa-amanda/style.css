@@ -1,0 +1,106 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+
+main {
+    background-color: #f8f9fe;
+    min-height: 400px;
+    width: 400px;
+    box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    padding: 30px;    
+}
+
+form input{
+        
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    color: white;
+}
+
+form #cadastrar-task{
+    background: #016ABC;
+	color: #fff;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+#cadastrar-task:hover {
+	background: hsl(207, 62%, 76%);
+	color: #fff;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    border: none;
+}
+
+#marcar-todos{
+    background-color: hsl(122, 73%, 26%);
+}
+
+#marcar-todos:hover {
+	background: hsl(207, 62%, 76%);
+	color: #fff;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    border: none;
+}
+
+#limpar{
+    background-color: hsl(0, 48%, 45%);
+}
+
+#limpar:hover {
+	background:hsl(207, 62%, 76%);
+	color: #fff;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+    border: none;
+}
+
+.feito{
+    background-color: green;
+}
+
+li.checked {
+    background-color: yellowgreen;
+    text-decoration: line-through;
+  }
+
+#botaoLixeira{
+    display: flex;
+}
+ul{
+    min-height: 30px;
+}
+
+ul div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 20px;
+}
+
+ul div button{
+    background-image: url(./img/trash.png);
+    background-size: contain;
+    background-color: transparent;
+    border: 30px;
+    height:30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
