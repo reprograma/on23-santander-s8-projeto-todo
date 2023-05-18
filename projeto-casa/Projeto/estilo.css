@@ -1,0 +1,42 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+main {
+    background-color:#f8f9fe ;
+    box-shadow: 2px 2px 9px #b8b8b8; 
+    min-height: 400px;
+    width: 400px;
+    padding: 2%;
+}
+button {
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+form button{
+    background-color: rgb(107, 218, 181);
+    
+}
+
+#marcarTodos {
+    background-color: rgb(255, 127, 170);
+}
+
+#limpar {
+    background-color: rgb(223, 212, 120);
+}
+
+.feito {
+    background-color: rgb(49, 243, 178);
+}
