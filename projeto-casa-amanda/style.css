@@ -9,21 +9,35 @@ body {
     display: flex;
     justify-content: center;
     min-height: 100vh;
-
+    background-color: rgba(71, 7, 101, 0.585);
 }
 
 main {
-    background-color: #f8f9fe;
+    background-color: hsla(295, 87%, 44%, 0.13);
     min-height: 400px;
     width: 400px;
     box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.354);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(0, 0, 0, 0.181);
     padding: 30px;    
 }
+main h1{
+    color: #eee;
+    border:black;
+}
 
-form input{
-        
+input{
+        border-top: transparent;
+        border-left: transparent;
+        border-right:transparent;
+        padding: 4px 2px;
+        width: 50%;
+        border-bottom-color: black;
+        background-color: transparent;
+        box-shadow: none;
+        text-decoration: none;
+        color: white;
+
 }
 
 button{
@@ -33,74 +47,73 @@ button{
 }
 
 form #cadastrar-task{
-    background: #016ABC;
+    background: hwb(305 25% 33% / 0.784);
 	color: #fff;
-	box-shadow: 5px 5px 5px #eee;
+	box-shadow: 2px 2px 2px #eeeeee5a;
 	text-shadow: none;
+    padding-left: 15px;
+    border-radius: 50px;
+
 }
 
 #cadastrar-task:hover {
-	background: hsl(207, 62%, 76%);
-	color: #fff;
-	box-shadow: 5px 5px 5px #eee;
+	background: hsla(207, 62%, 76%, 0.279);
+	color: #ffffff3d;;
 	text-shadow: none;
     border: none;
 }
 
 #marcar-todos{
-    background-color: hsl(122, 73%, 26%);
+    background-color: hsla(279, 73%, 26%, 0.931);
+    border-radius: 50px;
 }
 
 #marcar-todos:hover {
-	background: hsl(207, 62%, 76%);
+	background: hwb(207 61% 9% / 0.255);
 	color: #fff;
-	box-shadow: 5px 5px 5px #eee;
+	box-shadow: 1px 1px 1px #eee;
 	text-shadow: none;
     border: none;
 }
 
 #limpar{
-    background-color: hsl(0, 48%, 45%);
+    background-color: hsla(0, 48%, 45%, 0.716);
+    border-radius: 50px;
 }
 
 #limpar:hover {
-	background:hsl(207, 62%, 76%);
+	background:hwb(207 61% 9% / 0.414);
 	color: #fff;
-	box-shadow: 5px 5px 5px #eee;
+	box-shadow: 1px 1px 1px #eee;
 	text-shadow: none;
     border: none;
 }
 
 .feito{
-    background-color: green;
+    text-decoration: line-through;
 }
 
 li.checked {
-    background-color: yellowgreen;
     text-decoration: line-through;
   }
 
-#botaoLixeira{
-    display: flex;
-}
 ul{
-    min-height: 30px;
+    min-height: 10px;
+    color: white;
 }
 
 ul div{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 ul div button{
     background-image: url(./img/trash.png);
     background-size: contain;
     background-color: transparent;
-    border: 30px;
-    height:30px;
-    width: 30px;
-    background-repeat: no-repeat;
-    padding-left: 30px;
+    background-repeat:no-repeat;
+    width: 20px;
+    height:20px;
 }

@@ -95,6 +95,7 @@ function cadastrarTarefas(evento) {
 
     
     let imgDelete = document.createElement('button');
+    
     imgDelete.addEventListener('click', deletarTarefa);
 
     //
