@@ -49,7 +49,6 @@ button{
 form #cadastrar-task{
     background: hwb(305 25% 33% / 0.784);
 	color: #fff;
-	box-shadow: 2px 2px 2px #eeeeee5a;
 	text-shadow: none;
     padding-left: 15px;
     border-radius: 50px;
@@ -58,9 +57,10 @@ form #cadastrar-task{
 
 #cadastrar-task:hover {
 	background: hsla(207, 62%, 76%, 0.279);
-	color: #ffffff3d;;
+	color: #ffffffe9;;
 	text-shadow: none;
     border: none;
+    box-shadow: 2px 2px 2px #f5f5f52e;
 }
 
 #marcar-todos{
@@ -71,7 +71,7 @@ form #cadastrar-task{
 #marcar-todos:hover {
 	background: hwb(207 61% 9% / 0.255);
 	color: #fff;
-	box-shadow: 1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px hsla(0, 0%, 93%, 0.338);
 	text-shadow: none;
     border: none;
 }
@@ -84,7 +84,7 @@ form #cadastrar-task{
 #limpar:hover {
 	background:hwb(207 61% 9% / 0.414);
 	color: #fff;
-	box-shadow: 1px 1px 1px #eee;
+	box-shadow: 1px 1px 1px hsla(0, 0%, 93%, 0.3);
 	text-shadow: none;
     border: none;
 }
