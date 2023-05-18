@@ -1,0 +1,43 @@
+*{
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    text-decoration: underline;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main{
+    border-radius: 10px;
+    min-width: 400px;
+    width: 400px;
+    padding-left: 20px;
+    background-color: #FFFFFF;
+    box-shadow: #dddddd 2px 2px 9px; 
+}
+
+button{
+    color: white;
+    border: none;
+    font-weight: 400;
+}
+
+form button{
+    background-color: #a1dd70;
+    border: none;
+}
+
+input {
+   border-top: none;
+   border-left: ;
+}
+
