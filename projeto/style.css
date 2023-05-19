@@ -1,0 +1,48 @@
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+body {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.959);
+    border-radius: 2%;
+    box-shadow: 2px 2px 11px red;
+    font-size: large;
+    min-height: 350px;
+    padding: 20px;
+    width: 300px;
+}
+
+form input:focus {
+    border-color: black;
+    outline: none;
+}
+
+button {
+    background-color: lightgrey;
+    border-radius: 12%;
+    cursor: pointer;
+}
+
+form button {
+    font-weight: bolder;
+}
+
+ul {
+    cursor: pointer;
+}
+
+ul li:nth-child(odd){
+    background: hsla(0, 0%, 100%, 0.822);
+}
+
+.feito {
+    text-decoration: line-through red;
+}
