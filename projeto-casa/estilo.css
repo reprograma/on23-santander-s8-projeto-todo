@@ -27,6 +27,25 @@ form button {
   background-color: #0d69f6;
 }
 
+img {
+  width: 10px;
+  height: 15px;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  max-width: 100%;
+}
+
+li{
+  list-style-type: none;
+}
+
+
 #marcar-todos {
   background-color: rgba(172, 255, 47, 0.803);
 }
