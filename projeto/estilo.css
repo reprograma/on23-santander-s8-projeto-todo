@@ -27,7 +27,7 @@ form button {
   background-color: #0d69f6;
 }
 
-#marcar-todos {
+#marcarTodos {
   background-color: rgba(172, 255, 47, 0.803);
 }
 
@@ -37,4 +37,5 @@ form button {
 
 .feito {
   background-color: greenyellow;
+  text-decoration: line-through
 }
