@@ -1,0 +1,52 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url(./gatinhos.jpg);
+}
+
+main {
+    background-color: #f8f9fe;
+    border-radius: 10px;
+    box-shadow: 2px 2px 9px #989595f7;
+    min-height: 400px;
+    padding: 20px;
+    width: 300px;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #f8f9fe;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 9px #989595f7;
+}
+
+form button {
+    background-color: #0d69f6;
+}
+
+#marcar-todos {
+    background-color: rgba(147, 219, 39, 0.803);
+}
+
+#limpar {
+    background-color: rgb(255, 33, 33, 0.781);
+}
+
+.feito {
+    background-color: rgb(35, 218, 35);
+    text-decoration: line-through;
+}
