@@ -43,6 +43,14 @@ button {
     transition: all 0.5s ease-in;
 }
 
+li button{
+    background-image: url("../trash.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 25px;
+    padding: 0;
+}
 
 
 #marcar-todos {
@@ -67,7 +75,5 @@ form button {
     justify-content: space-evenly;
     text-decoration: line-through;
     color: chartreuse;
-    background-image: url(../trash.png);
-    background-size: 1em;
-    background-repeat: no-repeat;
+   
 }

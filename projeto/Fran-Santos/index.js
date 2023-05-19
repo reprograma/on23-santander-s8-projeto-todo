@@ -4,6 +4,12 @@ let limpar = document.getElementById('#limpar');
 let btnMarcarTodas = document.getElementById('marcar-todos');
 
 
+//EXCLUIR ITEM DA LISTA
+function deletarTarefa(evento) {
+    let lista = document.querySelector('ul');
+    lista.removeChild(evento.target.parentElement);
+}
+
 
 //FUNÇÃO MARCAR TODAS
 btnMarcarTodas.addEventListener('click', marcarTodas);
@@ -14,7 +20,7 @@ function marcarTodas(evento) {
     let marcarTodosOsItens = document.querySelectorAll('li')
     console.log(marcarTodosOsItens)
     for (const marcacao of marcarTodosOsItens) {
-         marcacao.classList.add('feito')
+        marcacao.classList.add('feito')
 
     }
 }
@@ -34,6 +40,9 @@ function cadastrarTarefa(evento) {
     itemDaLista.innerHTML = valorInput;
     itemDaLista.addEventListener('click', marcarTarefaComoFeita);
 
+    let botaoDeletar = document.createElement('button')
+    botaoDeletar.addEventListener('click', deletarTarefa)
+    itemDaLista.appendChild(botaoDeletar)
 
     let lista = document.querySelector('ul');
     lista.appendChild(itemDaLista)
@@ -42,10 +51,7 @@ function cadastrarTarefa(evento) {
 
 formulario.addEventListener('submit', cadastrarTarefa)
 
-
-
-
-//LIMPAR TAREFA
+//LIMPAR TAREFAS
 const limparTarefas = () => {
     const itemDaLista = document.querySelector('ul')
     while (itemDaLista.firstChild) { itemDaLista.removeChild(itemDaLista.lastChild) }
