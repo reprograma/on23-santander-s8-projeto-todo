@@ -5,7 +5,15 @@ function marcarTarefaComoFeita(evento) {
   let tarefaClicada = evento.target;
   tarefaClicada.classList.toggle('feito');
   // poderia ser direto assim também
-  evento.target.classList.toggle('feito');
+  // evento.target.classList.toggle('feito');
+}
+
+function deletarTarefa(evento) {
+  let lista = document.querySelector('ul');
+  // só de exemplo para verem o que é o evento.target
+  console.log(evento.target)
+  // neste caso queremos o elemento pai/mãe do elemento que sofreu o evento (não queremos remover o botão, mas o item da lista que é o pai/mãe do botão)
+  lista.removeChild(evento.target.parentElement);
 }
 
 function cadastrarTarefa(evento) {
@@ -15,6 +23,11 @@ function cadastrarTarefa(evento) {
   let itemDaLista = document.createElement('li');
   itemDaLista.innerHTML = valorInput;
   itemDaLista.addEventListener('click', marcarTarefaComoFeita)
+  
+  // criar o botão de deletar quando cria a tarefa
+  let botaoDeletar = document.createElement('button');
+  botaoDeletar.addEventListener('click', deletarTarefa);
+  itemDaLista.appendChild(botaoDeletar);
 
   let lista = document.querySelector('ul');
   lista.appendChild(itemDaLista);
