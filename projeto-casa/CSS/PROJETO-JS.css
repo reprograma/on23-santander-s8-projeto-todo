@@ -13,6 +13,7 @@ ul {
 ul > li {
   background-color: #fef5e8;
 }
+
 li button {
   background-image: url(../IMG/trash.png);
   background-size: contain;
@@ -110,6 +111,11 @@ form{
 }
 
 form button:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+li button:active{
   transform: scale(0.98);
   box-shadow: 3px 2px 5px 1px #e3d8c7;
 }
