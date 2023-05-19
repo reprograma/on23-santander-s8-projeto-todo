@@ -98,3 +98,18 @@ form{
   color: white;
   background-color: #FFD24C;
 }
+
+#marcar-todos:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+#limpar:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+form button:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
