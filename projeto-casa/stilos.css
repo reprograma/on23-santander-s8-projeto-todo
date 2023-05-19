@@ -1,0 +1,64 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background-color: #f8f9fe;
+    min-height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 9px #989595f7;
+    padding: 20px;
+}
+
+form button {
+    background-color: #0d69f6;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    cursor: pointer;
+}
+
+li button {
+    height: 20px;
+    width: 20px;
+    background-image: url(..//projeto/trash.png);
+    background-color: transparent;
+    background-size: contain;
+    border: none;
+}
+
+#marcar-todos {
+    background-color: rgba(172, 255, 47, 0.803);
+
+}
+
+#limpar {
+    background-color: rgba(255, 33, 33, 0.781);
+
+}
+
+.feito {
+    background-color: rgba(172, 255, 47, 0.803);
+}
