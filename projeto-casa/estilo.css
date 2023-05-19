@@ -1,0 +1,103 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: black;
+}
+
+main {
+  background-color: #c0c0c0;
+  box-shadow: 2px 2px 9px #989595f7;
+  min-height: 400px;
+  padding: 20px;
+  width: 400px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 1rem;
+}
+
+form button {
+  background-color: #0d69f6;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  
+
+}
+
+form button {
+  cursor: pointer;
+  transition: .4s;
+}
+
+form button:hover{
+  background-color: var(--color-dark3);
+
+}
+
+
+#marcar-todos {
+  background-color: rgba(172, 255, 47, 0.803);
+  padding: 10px 20px;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: .4s;
+ 
+}
+.content-add {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+#limpar {
+  background-color: rgba(255, 33, 33, 0.781);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.feito {
+  background-color: greenyellow;
+}
+
+#lista{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+}
+
+#lista:hover{
+  background-color: var(--color-dark3);
+  transition: .4s;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+#lista li{
+  list-style-type: none;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+li button {
+  background-image: url('./trash.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 20px;
+  padding: 0;
+}
