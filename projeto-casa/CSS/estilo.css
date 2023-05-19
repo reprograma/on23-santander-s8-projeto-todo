@@ -1,0 +1,62 @@
+* {
+    font-family: 'Homenaje', sans-serif;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    min-height: 90vh;
+    justify-content: center;
+    background-image: url(../IMG/cute.png);
+    background-repeat: no-repeat;
+    background-size: 100em;
+    background-position-x: center;
+
+}
+
+main {
+    background-color: #f8f9fe;
+    box-shadow: 2px 2px 9px #989595f7;
+    box-sizing: border-box;
+    min-height: 400px;
+    padding: 20px;
+    
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+form button {
+    background-color: #e70df6;
+}
+
+#marcar-todos {
+    background-color: blueviolet;
+}
+
+#limpar {
+    background-color: darkmagenta;
+    
+}
+
+.feito {
+    background-color: lightblue;
+}
+
+li button {
+    background-image: url('../IMG/trash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 13px;
+    width: 13px;
+    padding: 0;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    border: none;
+
+}
