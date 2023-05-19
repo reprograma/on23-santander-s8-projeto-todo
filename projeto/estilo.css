@@ -50,3 +50,11 @@ form button {
     background-color: rgb(35, 218, 35);
     text-decoration: line-through;
 }
+
+li button {
+    background-image: url('./trash.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 16px;
+    padding: 10px 10px;
+}
