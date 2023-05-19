@@ -1,0 +1,76 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: #d6ec10;
+    background-image: url(./todolist.jpg);
+    background-size: cover;
+    
+  }
+  
+  main {
+    background-color: yellow;
+    box-shadow: 2px 2px 9px #989595f7;
+    min-height: 400px;
+    padding: 50px;
+    width: 400px;
+    background-image: url(./notepad.png);
+    background-position:top;
+    background-size:cover
+    
+ 
+  }
+
+  main img{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+  }
+
+  
+  #taskInput {
+    height: 25px; /* Ajuste a altura conforme necessário */
+  }
+  
+  button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  #addButton {
+    background-color: #0d69f6;
+    border-radius: 5px;
+  }
+  
+  #markAllButton {
+    background-color: rgba(12, 19, 1, 0.803);
+    border-radius: 5px;
+  }
+  
+  #clearButton {
+    background-color: rgba(255, 33, 33, 0.781);
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+
+  .deleteButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+  }
+
+  .deleteButton img {
+    max-width: 2px;
+    max-height: 2px;
+    
+  
+ }
