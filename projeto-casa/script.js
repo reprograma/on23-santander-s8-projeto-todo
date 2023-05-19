@@ -3,7 +3,6 @@ const inputTarefa = document.querySelector('input');
 const limpar = document.getElementById('limpar');
 const btnMarcarTodos = document.getElementById('marcar-todos');
 
-
 btnMarcarTodos.addEventListener('click', marcarTodos);
 
 function marcarTodos(evento) {
@@ -75,6 +74,9 @@ botaoDeletarTodos.addEventListener('click', limparTodos);
 
 
 itemDaLista.addEventListener('click', marcarTodas)
+
+
+
 
 
 

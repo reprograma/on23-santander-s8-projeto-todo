@@ -1,0 +1,51 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    }
+    
+    body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-color: rgb(248, 204, 218);
+    }
+    
+    main {
+    background-color: rgb(198, 119, 214);
+    box-shadow: 4px 8px 18px #989595f7;
+    min-height: 400px;
+    padding: 15px;
+    width: 400px;
+    }
+    
+    button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    transform: translateY(-06px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgb(192, 156, 188);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 15px;
+    font-size: 14px;
+    
+    }
+    
+    
+    
+    form button {
+    background-color: #0d69f6;
+    }
+    
+    #marcar-todos {
+    background-color: rgba(172, 255, 47, 0.803);
+    }
+    
+    #limpar {
+    background-color: rgba(255, 33, 33, 0.781);
+    }
+    
+    .feito {
+    background-color: greenyellow;
+    }
