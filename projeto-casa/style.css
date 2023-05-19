@@ -1,0 +1,31 @@
+* {
+   font-family: 'Courier New', Courier, monospace
+}
+
+body {
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background-color: aliceblue;
+    box-shadow: 2px 2px 9px #989595f7;
+    min-height: 400px;
+    padding: 20px;
+    width: 400px;
+}
+
+form button {
+    background-color: aqua;
+}
+
+#marcar-todos {
+    background-color: rgba(172, 255, 47, 0.803);
+    
+}
+
+#limpar {
+    background-color: rgba(255, 33, 33, 0.781);
+}
