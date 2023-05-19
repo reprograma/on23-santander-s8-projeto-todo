@@ -15,16 +15,24 @@ function cadastrarTarefa(evento) {
   let listaTarefa = document.createElement("li");
   listaTarefa.innerHTML = valorInput;
   listaHtml.appendChild(listaTarefa);
+  listaTarefa.addEventListener("click", riscarUmaTarefaFeita);
   inputTarefa.value = "";
+
+  let botaoDeletar = document.createElement("button");
+  botaoDeletar.addEventListener("click", deletarTarefa)
+  listaTarefa.appendChild(botaoDeletar);
 
   if (valorInput == 0) {
     document.getElementById("mensagemDeErro").style.display = "block";
   } else {
     document.getElementById("mensagemDeErro").style.display = "none";
   }
-
-  listaTarefa.addEventListener("click", riscarUmaTarefaFeita);
 }
+
+function deletarTarefa(evento) {
+listaHtml.removeChild(  evento.target.parentElement)
+}
+
 
 function riscarUmaTarefaFeita(e) {
   let tarefaClicada = e.target;
