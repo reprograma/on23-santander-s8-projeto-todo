@@ -1,0 +1,44 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    background-image: url(https://gifs.eco.br/wp-content/uploads/2021/09/gifs-aesthetic-wallpaper-para-desktop-e-mobile-0.gif);
+}
+main{
+    background-color: #cd89d4;
+    box-shadow: 2px 2px 9px #989595f7;
+    min-height: 400px;
+    padding: 20px;
+    width: 400px;
+}
+
+ul {
+    list-style: none;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 7px 7px;
+}
+
+form button{
+    background-color: #2FA6AE;
+}
+
+#marcar-todos{
+    background-color: #55AD2F;
+}
+
+#limpar{
+    background-color: #FA613E;
+}
+
+.feito {
+    background-color: rgb(102, 95, 95);
+}

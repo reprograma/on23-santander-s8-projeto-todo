@@ -1,0 +1,24 @@
+passo a passo
+- estruturar o html - OK
+- estilizar no CSS - OK
+- criar funcionalidades no to do list
+  - cadastrar tarefa
+    - pegar o que esta escrito no Input OK
+    - pegar o botão de cadastrar
+    - adicionar o evento de submit no botao de cadastrar
+    - criar a funcao do evento submit 
+        - criar o elemento da tarefa
+        - preencher com a tarefa escrita pelo usuário
+        - colocar elemento no html
+            - pegar a ByteLengthQueuingStrategy
+            - anexar a tarefa 
+
+  - marcar tarefa como concluida
+    - add evento de clique no item da lista 
+    - criar função marcar como feito 
+      - receber item da lista que foi clicado
+      - adicionar classe de feito no item clicado
+  - apagar tarefa
+  - marcar todas as tarefas
+  - apagar todas as tarefas
+ 
