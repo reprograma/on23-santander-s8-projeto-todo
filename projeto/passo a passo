@@ -1,0 +1,18 @@
+Passo
+-Estrutra do html
+-Estlizar i html (css)
+-Criar Funcionalidade da lista de tarefas
+  - cadastrar tarefas
+    -pegar o que esta inscrito
+    -pegar o botao de cadastrar
+    -adicionar um evento de click no botão.
+    -criar a função do envento de click
+       -criar o elemento da tarefa 
+       -preencher com a tarefa escrita pelo usuario 
+       -colocar elemento no html
+
+ - marcar terefas
+  - Apagar tarefas
+  -Marcar todas as tarefas
+  -Limpar (apagar) todas as tarefas
+  
