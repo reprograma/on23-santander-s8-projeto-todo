@@ -10,22 +10,64 @@ body {
 }
 
 main {
-    background-color: aliceblue;
+    background-color: rgb(202, 215, 226);
     box-shadow: 2px 2px 9px #989595f7;
     min-height: 400px;
     padding: 20px;
     width: 400px;
 }
 
-form button {
-    background-color: aqua;
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px #989595f7;
 }
 
-#marcar-todos {
-    background-color: rgba(172, 255, 47, 0.803);
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+form button {
+    background-color: rgba(29, 172, 172);
+    border: none;
+    padding: 5px 5px;
+    align-items: center;
+    color: white;
+}
+
+form {
+    align-items: center;
+}
+
+#marcar-todas {
+    background-color: rgba(84, 131, 15, 0.803);
+    color: white;
     
 }
 
-#limpar {
-    background-color: rgba(255, 33, 33, 0.781);
+#Limpar {
+    background-color: rgba(199, 106, 106, 0.781);
+    color: white;
+}
+
+.feito {
+    background-color: rgba(172, 255, 47, 0.847);
+    text-decoration: line-through;
+  }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #dfabab;
+    height: auto;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+    text-align: center;
 }
