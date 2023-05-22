@@ -1,0 +1,64 @@
+* {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.banner {
+    background-image: url(./IMG/escolar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    padding-left: 15px;
+
+}
+
+main {
+    background-color: rgb(224, 224, 224);
+    box-shadow: 2px 2px 9px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+form button {
+    background-color: blue;
+}
+
+#marcar-todos {
+    background-color: rgb(47, 206, 61);
+}
+
+#limpar {
+    background-color: crimson;
+}
+
+.feito {
+    margin-top: 10px;
+    text-decoration: line-through;
+   
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 30px;
+    
+}
+
