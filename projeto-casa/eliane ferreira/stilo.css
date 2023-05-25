@@ -1,0 +1,45 @@
+* { 
+    font-family: 'Montserrat', sans-serif;}
+
+body { 
+ align-items: center;
+ display: flex;
+ min-height: 100vh;
+ justify-content: center;
+ background-image:url(IMG/sistema-solar-26183946870522.jpg);
+   
+}
+
+main {
+min-height: 400px;
+width: 400px;
+box-shadow: 2px 2px 9px #989595f7;
+padding: 20px;
+}
+
+button {
+    
+background-color: rgb(63, 63, 70); 
+color: white;
+padding: 3px 8px;
+
+}
+
+form button {
+  background-color: rgb(63, 63, 70); 
+}
+
+#marcar-todos {
+background-color: rgb(236, 151, 52); 
+  
+} 
+
+#limpar {
+    background-color: rgb(206, 166, 114);
+}
+
+.feito{
+    
+    text-decoration: line-through;
+}
+
