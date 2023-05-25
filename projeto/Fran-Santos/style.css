@@ -1,0 +1,79 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(../fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+main {
+    background-color: #323233;
+    min-height: 400px;
+    min-width: 400px;
+    box-shadow: 2px 2px 9px cornflowerblue;
+    padding: 20px;
+    border-radius: 8px;
+
+
+}
+
+h1 {
+    color: #f8f9fe;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul li {
+    color: aliceblue;
+}
+
+button {
+    border-radius: 8px;
+    padding: 10px 20px;
+    border: none;
+    color: #f8f9fe;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+}
+
+li button{
+    background-image: url("../trash.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 25px;
+    padding: 0;
+}
+
+
+#marcar-todos {
+    background-color: rgba(172, 255, 47, 0.803);
+}
+
+#limpar {
+    background-color: rgba(255, 33, 33, 0.781);
+}
+
+form button {
+    background-color: #0d69f6;
+    cursor: pointer;
+    color: #f8f9fe;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.feito {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: line-through;
+    color: chartreuse;
+   
+}
