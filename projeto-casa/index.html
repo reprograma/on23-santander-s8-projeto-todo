@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="./index.css">
+    
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>LIsta de Tarefas <img src="./icon.png" alt=""></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Adicione sua tarefa">
+                <button onclick="addTask()">Add</button>
+                <button onclick="marcarTodos()">Marcar Todos</button>
+            </div>
+            <p id="erro" style="color: red;"></p>
+            <ul id="list-container">
+                <!-- <li class="check">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul> 
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
