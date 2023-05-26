@@ -1,0 +1,65 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: DarkOrchid;
+}
+
+main {
+  background-color: #f8f9fe;
+  box-shadow: 2px 2px 9px #989595f7;
+  min-height: 400px;
+  width: 400px;
+  padding: 20px;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 5px 5px;
+}
+
+form button {
+  background-color: #0dc9f6;
+}
+
+input {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-bottom-style: solid;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#marcar-todos {
+  background-color: rgba(172, 255, 47, 0.847);
+}
+
+#limpar {
+  background-color: rgba(255, 33, 33, 0.781);
+}
+
+.feito {
+  background-color: rgba(172, 255, 47, 0.847);
+  text-decoration: line-through;
+}
+
+.lixeira {
+  width: 2rem;
+  height: 2rem;
+}
+
+.imgLixeira {
+  width: 1.5rem;
+  height: 1.5rem;
+}
