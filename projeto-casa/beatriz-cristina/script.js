@@ -1,6 +1,40 @@
-const formulario = document.querySelector('form');
-const inputTarefa = document.querySelector('input');
+let inputTarefa = document.querySelector('input');
+let formCadastro = document.querySelector('form');
 let btnMarcarTodasTarefas = document.getElementById('marcar-todos');
+let btnLimparTarefas = document.getElementById('limpar');
+
+function marcarTarefa(event) {
+  event.target.classList.toggle('feito');
+}
+
+function cadastrarTarefa(event) {
+  event.preventDefault();
+  let tarefa = document.createElement('li');
+  tarefa.innerHTML = inputTarefa.value;
+
+  let btnLixeira = document.createElement('button');
+  btnLixeira.classList.add('lixeira');
+
+  let imgLixeira = document.createElement('img');
+  imgLixeira.src = 'trash.png';
+  imgLixeira.classList.add('imgLixeira')
+
+  tarefa.appendChild(btnLixeira);
+  btnLixeira.appendChild(imgLixeira);
+
+  let lista = document.querySelector('ul');
+  lista.appendChild(tarefa);
+
+  btnLixeira.addEventListener('click', () => {
+    tarefa.remove();
+  });
+
+  tarefa.addEventListener('click', marcarTarefa);
+
+  inputTarefa.value = '';
+}
+
+addEventListener('submit', cadastrarTarefa);
 
 function marcarDesmarcarTodasTarefas() {
   let tarefas = document.querySelectorAll('li');
@@ -16,21 +50,11 @@ function marcarDesmarcarTodasTarefas() {
 
 btnMarcarTodasTarefas.addEventListener('click', marcarDesmarcarTodasTarefas);
 
-function marcarTarefaComoFeita(evento) {
-    let tarefaClicada = evento.target
-    tarefaClicada.classList.toggle('feito');
+function limparTodasTarefas() {
+  let tarefas = document.querySelectorAll('li');
+  for (let tarefa of tarefas) {
+    tarefa.remove();
+  }
 }
 
-function cadastrarTarefa(evento) {
-    console.log(evento)
-    evento.preventDefault();
-
-    let valorInput = inputTarefa.value;
-    let itemDaLista = document.createElement('li');
-    itemDaLista.innerHTML = valorInput;
-    itemDaLista.addEventListener('click', marcarTarefaComoFeita)
-    let lista = document.querySelector('ul');
-    lista.appendChild(itemDaLista);
-}
-
-formulario.addEventListener('submit', cadastrarTarefa);
+btnLimparTarefas.addEventListener('click', limparTodasTarefas);
