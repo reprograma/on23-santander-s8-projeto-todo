@@ -1,0 +1,121 @@
+* {
+  background-color: #fbf9f5;
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  background-color: #fef5e8;
+  /* text-decoration: underline; */
+}
+
+ul > li {
+  background-color: #fef5e8;
+}
+
+li button {
+  background-image: url(../IMG/trash.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+main {
+  border-radius: 10px;
+  min-height: 400px;
+  width: 400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #fffbf5;
+  box-shadow: #dddddd 2px 2px 9px;
+  padding-bottom: 10px;
+}
+
+button {
+  background-color: #fffbf5;
+  color: white;
+  border: none;
+  font-weight: 400;
+}
+
+form button {
+  background-color: #a1dd70;
+  border: none;
+}
+
+input {
+  background-color: #fffbf5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: #a1dd70;
+}
+
+h1 {
+  background-color: #fffbf5;
+  color: #92B4EC;
+}
+
+div{
+    background-color: #FFFBF5;
+}
+
+form{
+    background-color: #FFFBF5;
+}
+
+#marcar-todos {
+  background-color: #FFD24C;
+  margin-top: 2px;
+}
+
+#limpar {
+  background-color: #a23131;
+}
+
+.erro {
+  width: fit-content;
+  color: white;
+  background-color: #a23131;
+  margin-top: 2px;
+  display: none;
+  font-size: 0.75em;
+  padding-left: 7px;
+  padding-right: 2px;
+}
+
+.feito {
+  /* width: fit-content; */
+  text-decoration: line-through;
+  color: white;
+  background-color: #FFD24C;
+}
+
+#marcar-todos:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+#limpar:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+form button:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
+
+li button:active{
+  transform: scale(0.98);
+  box-shadow: 3px 2px 5px 1px #e3d8c7;
+}
