@@ -1,62 +1,100 @@
-* {
-    font-family: 'Homenaje', sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nanum+Gothic+Coding&display=swap');
 
 body {
     align-items: center;
+    background-image: url(../IMG/cute4.png);
+    background-size: 100%;
     display: flex;
-    min-height: 90vh;
+    font-family: 'Nanum Gothic Coding', monospace;
     justify-content: center;
-    background-image: url(../IMG/cute.png);
-    background-repeat: no-repeat;
-    background-size: 100em;
-    background-position-x: center;
-
+    margin: 0;
+    min-height: 100vh;
 }
 
-main {
-    background-color: #f8f9fe;
-    box-shadow: 2px 2px 9px #989595f7;
+.container {
+    background-color: #b5d3f8;
     box-sizing: border-box;
-    min-height: 400px;
-    padding: 20px;
-    
+    box-shadow: 2px 2px 9px #989595f7;
+    display: block;
+    min-height: 25rem;
+    overflow: auto;
+    padding: 1.2rem;
+    width: 25rem;
+}
+
+h1 {
+    display: flex;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+form input {
+    border: none;
+    border-bottom: 1px solid #000;
+    height: 0.9rem;
+    margin-left: 2.5rem;
+    margin-right: 0.6rem;
+    width: 11rem;
+}
+
+form button {
+    background-color: #fdcae1;
 }
 
 button {
     border: none;
-    color: white;
-    padding: 10px 20px;
-
+    color: rgb(4, 4, 4);
+    font-family: 'Nanum Gothic Coding', monospace;
+    padding: 0.5rem 1.2rem;
 }
 
-form button {
-    background-color: #e70df6;
+.buttonContainer {
+    align-items: center;
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+    margin-top: 10rem;
 }
 
 #marcar-todos {
-    background-color: blueviolet;
+    background-color: #fdf0ca;
 }
 
 #limpar {
-    background-color: darkmagenta;
-    
+    background-color: #caf5fd;
 }
 
 .feito {
-    background-color: lightblue;
+    background-color: #fdcae1;
+}
+
+ul {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 0.6rem;
+    position: relative;
 }
 
 li button {
-    background-image: url('../IMG/trash.png');
-    background-size: contain;
-    background-repeat: no-repeat;
     background-color: transparent;
-    height: 13px;
-    width: 13px;
-    padding: 0;
-    margin-bottom: 10px;
-    margin-left: 50px;
+    background-image: url('../IMG/trash.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     border: none;
-
+    height: 0.8rem;
+    left: 16rem;
+    margin-bottom: 0.6rem;
+    padding: 0;
+    position: absolute;
+    width: 0.8rem;
 }
